@@ -1,0 +1,13 @@
+<suite name="Mytestsuite">
+<test name="myTest">
+<classes>
+<!-- <class name="testng.BasicAnnotation"></class>-->
+<class name="testng.BasicTestCase"></class>
+<methods>
+ <include name="testeCase05"></include>
+ </methods>
+<!-- <class name="testng.BeforeAfterMethod"></class>
+<class name="testng.DataProviderTest"></class>-->
+</classes>
+</test>
+</suite>

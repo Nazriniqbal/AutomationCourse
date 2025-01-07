@@ -1,0 +1,14 @@
+<suite name="GroupTest">
+<test name="myTest">
+<groups>
+<run>
+<exclude name="smoke">
+</exclude>
+</run>
+</groups>
+
+<classes>
+<class name="testng.BasicTestCase"></class>
+</classes>
+</test>
+</suite>
